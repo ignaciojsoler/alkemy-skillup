@@ -14,6 +14,7 @@
 - Clonar el proyecto
 - En la consola, ejecutar el comando npm install
 - Ejecutar el comando npm run dev
+- Para iniciar sesión, recordá utilizar los siguientes datos **EMAIL**: challenge@alkemy.org **PASSWORD**: react
 - ¡Listo!
 
 ### Tecnologías utilizadas:
