@@ -3,7 +3,8 @@
 ¡Hola! Este es la aplicación web de películas que desarrollé con React JS para el reto de Alkemy.
 
 ### Características funcionales:
-- **IMPORTANTE**: El usuario debe iniciar sesión rellenando los campos con los siguientes datos: **EMAIL** = challenge@alkemy.org **PASSWORD** = react
+- **IMPORTANTE**: El usuario debe iniciar sesión rellenando los campos con los siguientes datos: 
+**EMAIL** = challenge@alkemy.org **PASSWORD** = react
 - Las rutas están protegidas desde el frontend con React Router, por lo que los usuarios que no estén logueados no podrán acceder al catálogo de películas.
 - Favoritos: Una vez que el usuario inicia sesión puede ver el catálogo de películas llamadas a través de la API y agregar las que desee a una lista de favoritos. Las películas guardadas se almacenan en el almacenamiento local y en la sección de la página llamada "favoritos".
 - El contenido de la barra de navegación varía de acuerdo a si el usuario está logueado o no, mostrándonos más opciones cuando el usuario lo está.
