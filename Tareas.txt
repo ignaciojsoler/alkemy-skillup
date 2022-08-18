@@ -1,0 +1,180 @@
+Unidad 1: Configurar el setup de React
+
+-------------------------
+
+Unidad 2: ARMAR EL LOGIN
+
+Tarea1: 
+- Identificar los elementos indispensables que necesita este componente
+- Entender cómo es que React trabaja con los formularios
+- Identificar los elementos HTML indispensables en nuestros componente
+
+Tarea 2:
+- Entender qué es la validación de campos de un formulario
+- Identificar cómo trabajar React para trabajar con formularios
+- Implementar el uso de expresiones regulares básicas para la validación
+- Generar mensajes de error que se muestran por consola
+
+Tarea 3:
+- Entender qué son las peticiones HTTP y cómo podemos manejarlas
+- Identificar cómo hacer una petición HTTP desde React
+- Implementar la librería AXIOS para hacer este tipo de peticiones
+
+Tarea 4:
+- Identificar por qué el manejo de errores es crucial para la UX
+- Instalar e implementar la librería Sweet alert (npm install sweetalert, npm install @sweetalert/with-react) agregar --force si la segunda no anda.
+- Generar mensajes de error y confirmación según la información obtenida
+
+Tarea 5:
+- Entender qué es un token y la importancia de su existencia
+- Identificar que el almacenamiento local es un buen lugar para almacenar el token
+- Guardar el token en el almacenamiento local del navegador
+
+Tarea 6:
+- Entender cómo funcionan las redirecciones
+- Instalar e implementar la librería React Router Dom
+- Reconocer qué componentes vamos a usar de esta librería
+- Implementar la redirección hacía el componente Listado, una vez obtenido el token
+
+Tarea 7:
+
+
+-------------------------------------------
+
+Unidad 3: DISEÑO DE LA ESTRUCTURA BÁSICA
+
+Tarea 1: Armado del header y el navbar
+- Identificar cuales elementos de HTML componen una barra de navegación
+- Definir qué componentes de React Router vamos a utilizar
+- Implementar un componente <Header /> que contenga la barra de navegación
+
+Tarea 2: Armado del footer
+- Identificar cuál es el contenido más comúnmente presente en el footer de un sitio web
+- Definir qué elementos HTML necesitamos para armar el footer de nuestra aplicación
+- Estructurar un componente que contenga la información requerida y la lógica necesaria para que funcione perfectamente
+Nota: dentro de React podemos agregar el atriubto rel="noopener noreferrer" a los enlaces por cuestiones de seguridad
+
+Tarea 3: Integración del encabezado y la navegación
+- Identificar en qué lugar de nuestra aplicación deberá implementarse el componente <Header />
+- Integrar el componente <Header /> al flow de nuestra aplicación
+
+Tarea 4: Integración de librería CSS
+- Visualizar las distintas maneras que tiene React para trabajar con CSS
+- Definir cuál será la manera más cómoda para encarar el desarrollo del challenge
+- Implementar la librería de CSS que más se adapte a nuestra necesidad
+
+
+-------------------------------------
+
+UNIDAD 4: ARMADO DE LA VISTA DE LISTADO
+
+Tarea 1: Armado de la vista
+- Identificar los elementos de HTML que vamos a necesitar para este componente
+- Definir qué información necesita el componente para trabajar
+- Implementar un código JSX que nos permita mostrar perfectamente la información
+
+Tarea 2: Protección de la ruta /listado
+- Entender cómo se protegen las rutas y el "por qué" de esta necesidad
+- Definir qué necesitamos de nuestra aplicación para proteger esta ruta en particular
+- Generar un sistema de redirección al visitante de la app, en dado caso que no esté autenticado para visualizar esta ruta
+
+Tarea 3: Obtención de datos desde la API (themovidedb.org)
+- Conocer cuáles son los requerimientos mínimos que la API espera de nuestra aplicación para entregarnos la información
+- Entender cómo es el formato de la información obtenida de la API
+- Reconocer cuáles partes de la respuesta de la API son las que necesitamos en nuestra aplicación
+
+Tarea 4: Renderización de los datos en el componente
+- Entender cómo funciona la renderización de datos dinámicos
+- Usar los estados de React a través de Hooks para almacenar la información obtenida de la API
+- Usar el estado en donde almacenamos la información para hacer un renderizado condicional de la información en nuestro componente
+
+Tarea 5: Manejo de errores (Sweet alert)
+- Identificar por qué el manejo de errores es crucial para la UX
+- Implementar los componentes que nos aporta la librería Sweet alert
+- Generar mensajes de error y confirmación según la información obtenida
+
+Tarea 6: Ingreso al detalle de cada ítem
+- Entender que el detalle de cada ítem deberá ser un componente a parte
+- Identificar qué información necesita ese componente para mostrar la información específica
+- Implementar los componentes de React Router que nos permitan navegar desde el componente Listado hasta el componente Detalle.
+
+
+----------------------------------------
+
+
+UNIDAD 5: VISTA DE DETALLE
+
+Tarea 1: Repaso breve de la verificación del usuario
+- Identificar cómo se obtiene el Token necesario para la identificación de usuarios
+- Entender cómo funciona el chequeo del token en la protección de nuestras rutas
+- Hacer que el token se elimine del almacenamiento local, cuando el usuario termina sesión
+
+Tarea 2: Armado de la vista "Detalle"
+- Reconocer la importancia y necesidad de esta vista
+- Entender cómo podemos capturar la información que viaja en la URL con JavaScript
+- Definir en qué parte del componente podemos hacer llamados asíncronos
+
+Tarea 3: Obtener datos de la API
+- Identificar el nuevo endpoint a donde deberemos solicitar la información para un ítem específico
+- Reconocer cuál es la información necesaria para que este endpoint pueda ser dinámico
+- Obtener los datos de la API  y manipular la información obtenida de esta llamada
+
+Tarea 4: Renderizar los datos obtenidos de la API
+- Identificar cual es la información que nos da la API y con la que nos interesa trabajar
+- Definir qué podemos hacer si algún dato indispensable no es suministrado por la APO
+- Generar renderizados de información condicionales para evitar los errores
+
+-------------------------------
+
+
+UNIDAD 6: BUSCADPR Y SECCIÓN FAVORITOS
+
+Tarea 1: Armado del componente "Buscador"
+- Reconocer los elementos HTML necesarios para implementar una barra de búsqueda
+- Definir en qué lugar de nuestra aplicación deberá estar presente esta barra
+- Verificar que la información suministrada en esta barra de búsqueda, la podemos capturar
+
+Tarea 2: Validación del formulario de búsqueda
+- Implementar un proceso de validación sencillo
+- Manipular un sistema de alertas para cuando se presente errores de validación
+- Entender la importancia de validar la información suministrada en este formulario
+
+Tarea 3: Redirección a "Resultados"
+- Reconocer en qué momento debemos hacer el redireccionamiento a esta sección
+- Capturar la información presente en la URL con JavaScript y trabaja con la misma
+- Limpiar la información que viaja en la URL para evitar errores
+
+Tarea 4: Llamado a la API con palabra clave
+- Identificar cual es el endpoint (otra url que nos da la api) de la API que nos permite hacer búsquedas por palabras clave
+- Reconocer cuál es la información que nos suministra la API y con cual deberemos trabajar
+- Renderizar la información obtenida de este llamado
+
+Tarea 5: Armado de la lógica de "Agregar a favoritos"
+- Implementar un mecanismo que nos permita elegir un ítem y agregarlo a un almacenamiento local
+- Desarrollar las funcionalidades para Agregar / Eliminar ítems de dicho almacenamiento
+- Generar un recursos gráfico en la interfaz que nos permita saber qué ítems se han agregado a "Favoritos"
+
+Tarea 6: Armado del componente "Favoritos"
+- Reconocer los elementos información se va renderizar en este componente y de donde podemos obtener esa información
+- Implementar un mecanismo que nos permita mostrar esta información en la interfaz sin la necesidad de llamar a una API
+- Desarrollar una validación básica que nos permita saber si existen ítems pertenecientes a una categoría agregados en esta sección
+
+Tarea 7: Finalización de la sección "Favoritos" y revisión de toda la app
+- Dar los últimos retoques finales a esta sección para dejarla lo más prolija posible
+- Verificar que todo el flujo de la aplicación funciona correctamente
+- Implementar los ajustes necesarios para cubrir un manejo de los errores si fuese necesario
+
+
+------------------------------------------
+
+UNIDAD 7: Introducción a Redux
+
+Clase 1: Entendiendo la problemática
+- Entender cuáles son los principales puntos de dolor al momento de trabajar con React en aplicaciones de tamaño "grande"
+- Visualizar cuál es el problema de trabajar con componentes al mismo nivel y por qué no se pueden comunicar entre sí
+- Analizar cuáles serían las mejores alternativas de trabajo para el estado de nuestra aplicación en proyectos de gran escala
+
+Clase 2: Introducción y conceptos clave
+- Entender los conceptos base de trabajo al momento de implementar el patrón de desarrollo con Redux
+- Reconocer cuales son los principios fundamentales del patrón Redux
+- Identificar cuáles son los elementos clave de Redux dentro de una aplicación React
