@@ -13,7 +13,7 @@ module.exports = {
         light: '#fcf7f7'
       },
       backgroundImage: {
-        'hero-pattern': "url('./assets/background.jpg')"
+        'hero-pattern': "url('./assets/background.webp')"
       },
       fontFamily: {
         'montserrat': 'Montserrat'
