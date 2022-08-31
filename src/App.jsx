@@ -73,7 +73,7 @@ function App() {
 
       <>
         <Routes>
-          <Route exact path="/" element={<Formulario setTokenExist={setTokenExist}/>} />
+          <Route exact path="/*" element={<Formulario setTokenExist={setTokenExist}/>} />
 
           <Route
             path="/listado"
