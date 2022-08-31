@@ -2,8 +2,6 @@
 
 ¡Hola! Este es la aplicación web de películas que desarrollé con React JS para el challenge de Alkemy. Se trata de una aplicación de películas.
 
-**Podes visitar el sitio web haciendo click aquí**: https://ignaciojsoler.github.io/alkemy-skillup/
-
 ### Características funcionales:
 - **IMPORTANTE**: El usuario debe iniciar sesión rellenando los campos con los siguientes datos **EMAIL**: challenge@alkemy.org **PASSWORD**: react
 - Las rutas están protegidas desde el frontend con React Router, por lo que los usuarios que no estén logueados no podrán acceder al catálogo de películas.
