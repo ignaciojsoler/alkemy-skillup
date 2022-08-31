@@ -1,6 +1,8 @@
 # Aplicación web responsive de películas
 
-¡Hola! Este es la aplicación web de películas que desarrollé con React JS para el reto de Alkemy.
+¡Hola! Este es la aplicación web de películas que desarrollé con React JS para el challenge de Alkemy. Se trata de una aplicación de películas.
+
+**Podes visitar el sitio web haciendo click aquí**: https://ignaciojsoler.github.io/alkemy-skillup/
 
 ### Características funcionales:
 - **IMPORTANTE**: El usuario debe iniciar sesión rellenando los campos con los siguientes datos **EMAIL**: challenge@alkemy.org **PASSWORD**: react
